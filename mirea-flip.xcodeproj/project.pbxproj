@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5373A9532611328200D0F444 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5373A9522611328200D0F444 /* LoginView.swift */; };
+		5373A9582611388000D0F444 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5373A9572611388000D0F444 /* AppRootView.swift */; };
+		5373A95E2611C52E00D0F444 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5373A95D2611C52E00D0F444 /* AuthService.swift */; };
+		5373A972261211C500D0F444 /* WorkflowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5373A971261211C500D0F444 /* WorkflowView.swift */; };
 		53F8FB0A26112ED800DADAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F8FB0926112ED800DADAF5 /* AppDelegate.swift */; };
 		53F8FB0C26112ED800DADAF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F8FB0B26112ED800DADAF5 /* SceneDelegate.swift */; };
 		53F8FB0E26112ED800DADAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F8FB0D26112ED800DADAF5 /* ContentView.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5373A9522611328200D0F444 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5373A9572611388000D0F444 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		5373A95D2611C52E00D0F444 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		5373A971261211C500D0F444 /* WorkflowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowView.swift; sourceTree = "<group>"; };
 		53F8FB0626112ED800DADAF5 /* mirea-flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mirea-flip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F8FB0926112ED800DADAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53F8FB0B26112ED800DADAF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5373A95C2611C51A00D0F444 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5373A95D2611C52E00D0F444 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		53F8FAFD26112ED800DADAF5 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +115,13 @@
 		53F8FB0826112ED800DADAF5 /* mirea-flip */ = {
 			isa = PBXGroup;
 			children = (
+				5373A95C2611C51A00D0F444 /* Services */,
 				53F8FB0926112ED800DADAF5 /* AppDelegate.swift */,
 				53F8FB0B26112ED800DADAF5 /* SceneDelegate.swift */,
 				53F8FB0D26112ED800DADAF5 /* ContentView.swift */,
+				5373A971261211C500D0F444 /* WorkflowView.swift */,
+				5373A9572611388000D0F444 /* AppRootView.swift */,
+				5373A9522611328200D0F444 /* LoginView.swift */,
 				53F8FB0F26112EDF00DADAF5 /* Assets.xcassets */,
 				53F8FB1426112EDF00DADAF5 /* LaunchScreen.storyboard */,
 				53F8FB1726112EDF00DADAF5 /* Info.plist */,
@@ -268,7 +288,11 @@
 			files = (
 				53F8FB0A26112ED800DADAF5 /* AppDelegate.swift in Sources */,
 				53F8FB0C26112ED800DADAF5 /* SceneDelegate.swift in Sources */,
+				5373A9532611328200D0F444 /* LoginView.swift in Sources */,
+				5373A972261211C500D0F444 /* WorkflowView.swift in Sources */,
+				5373A95E2611C52E00D0F444 /* AuthService.swift in Sources */,
 				53F8FB0E26112ED800DADAF5 /* ContentView.swift in Sources */,
+				5373A9582611388000D0F444 /* AppRootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

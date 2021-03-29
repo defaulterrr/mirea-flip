@@ -7,10 +7,25 @@
 
 import SwiftUI
 
+struct ContentView2: View {
+    var body: some View {
+        Text("Test")
+    }
+}
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            WorkflowView()
+                .tabItem {
+                    Label("Workflow", systemImage: "pencil.circle" )
+                }
+            ContentView2()
+                .tabItem {
+                    Label("Menu", systemImage: "list.dash")
+                }
+        }
+
     }
 }
 
